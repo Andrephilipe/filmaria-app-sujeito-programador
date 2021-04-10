@@ -1,0 +1,36 @@
+header{
+	/*display: flex;
+	flex-direction: column;*/
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFE53B;
+	background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+	color: #fff;
+	font-size: 30px;
+	height: 60px;
+}
+.logo{
+	margin-left: 100px;
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav{
+	margin-right: 100px;
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 25px;
+}
+header nav a{
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+header nav a:hover{
+	color: #000;
+	background-color: #fff;
+	padding: 6px;
+}
